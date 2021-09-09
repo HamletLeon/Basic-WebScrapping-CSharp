@@ -1,0 +1,57 @@
+*/*.swp
+*/*.*~
+project.lock.json
+*/.DS_Store
+*/*.pyc
+
+# Visual Studio Code -> Some recommends to leave this in repo to avoid reconfiguring tasks.json and launch.json for each contributor
+*/.vscode
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*/*.suo
+*/*.user
+*/*.userosscache
+*/*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Mm]igrations/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+*/msbuild.log
+*/msbuild.err
+*/msbuild.wrn
+
+# Visual Studio 2015
+.vs
+*/*.vs
+
+# IIS Folder
+#*/wwwroot
+
+# Packages
+*/packages
+*.dbmdl
+*.jfm
+
+#Ignore appsetting Enviroments
+appsettings.*.json
+*/appsettings.*.json
+
+#Ignore Folder
+PaymentLogs
+
+#Ignore Logs
+*logs.txt
+*/*logs.txt
